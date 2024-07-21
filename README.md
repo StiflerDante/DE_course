@@ -1,2 +1,2 @@
-# DE_course
-De_course tasks
+# ФИО: ГДА
+Хобби: вкусная еда)
