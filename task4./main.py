@@ -133,6 +133,10 @@ def most_frequent_category(path: str) -> str:
 
     return most_frequent
 
-
 if __name__ == "__main__":
-    print("Done")
+    #file_creater(path: str, data: list[dict] = purchases) # Создаем файл 
+    print(f'Общая выручка: {total_revenue('purchases.csv')}')
+    print(f'Товары по категориям: {items_by_category('purchases.csv')}')
+    print(f'Покупки дороже 1.0: {expensive_purchases('purchases.csv', min_price=1)}')
+    print(f'Средняя цена по категориям: {average_price_by_category('purchases.csv')}')
+    print(f'Категория с наибольшим количеством проданных товаров: {most_frequent_category('purchases.csv')}')
